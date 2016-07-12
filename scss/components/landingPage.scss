@@ -1,0 +1,73 @@
+.landingPage{
+	.nav_progress{
+		position:fixed;
+		right:5px;
+		top:35%;
+	}
+	margin:0;
+	
+	// Control the headline type color
+	.bg_teal, .bg_red1{color:$white;}
+	header{
+		color:#fff;
+		text-shadow:
+			1px 1px 0 rgba(43,43,43,0.3),  
+			1px 1px 0 rgba(43,43,43,0.3),
+			1px 1px 0 rgba(43,43,43,0.3),
+			1px 1px 0 rgba(43,43,43,0.3);
+	}
+	
+	section, header{
+		background-size:cover;
+		background-position:center top;
+		@include spacing(60px);
+		padding-left:40px;
+		padding-right:40px;
+	}
+	header .headline, header .subheadline{text-align:center;}
+	section .headline, section .subheadline{text-align:center;}
+	section .headline h1, section .headline h2{margin: 0 0 0.125em 0;}
+   
+	.content{
+		@include spacing(35px);
+		@include content_width(1200px);
+		.content_block{
+			float:left;
+			width:50%;
+			padding:0 10px;
+	      box-sizing:border-box;
+		}
+	}
+	.content_50{
+	   max-width:50%;
+	   margin-left:auto;
+	   margin-right:auto;
+	}
+	.form{
+		@include spacing(40px);
+		.input_options{clear:both;margin-top:3.5em;border-top:1px dotted $grey4;}
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.landingPage{
+		section, header{
+			@include spacing(30px);
+			padding-left:12px;
+			padding-right:12px;
+		}
+		section .headline, section .subheadline, header .headline, section .subheadline{text-align:left;width:75%;}
+		.content{
+			@include spacing(12px);
+			@include content_width(90%);
+			.content_block{
+				clear:both;
+				width:100%;
+			}
+			.content_block:nth-child(2){
+				margin-top:20px;
+			}
+		}
+	}
+}
+

@@ -1,0 +1,305 @@
+@import url("http://fonts.googleapis.com/css?family=Varela");
+@import url("http://fonts.googleapis.com/css?family=Lora");
+.space_4 {
+  padding-top: 4px;
+  padding-bottom: 4px; }
+
+.space_8 {
+  padding-top: 8px;
+  padding-bottom: 8px; }
+
+.space_10 {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.space_12 {
+  padding-top: 12px;
+  padding-bottom: 12px; }
+
+.space_20 {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.space_32 {
+  padding-top: 32px;
+  padding-bottom: 32px; }
+
+.space_48 {
+  padding-top: 48px;
+  padding-bottom: 48px; }
+
+.space_60 {
+  padding-top: 60px;
+  padding-bottom: 60px; }
+
+.space_75 {
+  padding-top: 75px;
+  padding-bottom: 75px; }
+
+.bg_red {
+  background-color: #af3531; }
+
+.bg_red1 {
+  background-color: #df8b88; }
+
+.bg_teal {
+  background-color: #4db6ac; }
+
+.bg_teal1 {
+  background-color: #aad4d0; }
+
+.bg_beige {
+  background-color: #ebe5df; }
+
+.bg_white {
+  background-color: #fff; }
+
+.bg_black {
+  background-color: #444; }
+
+html {
+  font-size: 1em; }
+
+body {
+  font-family: 'Varela', serif;
+  font-weight: 400;
+  color: #444; }
+
+.serif {
+  font-family: 'Lora', sans-serif; }
+
+h1, h2, h3, h4, h5, p {
+  margin: 0 0 0.5em 0;
+  font-weight: inherit;
+  line-height: 1.25; }
+
+p {
+  margin-bottom: 1em;
+  line-height: 1.45; }
+
+h1 {
+  margin-top: 0;
+  font-size: 3.998em;
+  font-weight: 700; }
+
+h2 {
+  font-size: 2.827em;
+  font-weight: 600; }
+
+h3 {
+  font-size: 1.999em;
+  font-weight: 600; }
+
+h4 {
+  font-size: 1.414em; }
+
+h5 {
+  font-size: 1.207em; }
+
+.promo {
+  font-size: 5.653em;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.2; }
+
+.font_small, .form .helperText {
+  font-size: 0.707em; }
+
+@media screen and (max-width: 480px) {
+  html {
+    font-size: .75em; }
+
+  p {
+    font-size: 1.08em;
+    padding-bottom: .9em; }
+
+  .promo {
+    font-size: 5.1em;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.2; } }
+.typography {
+  margin: 20px;
+  border-top: 5px solid #aad4d0; }
+
+hr {
+  margin: 20px 0; }
+
+.form label {
+  margin-top: .85em;
+  color: #444;
+  display: block; }
+.form .inline_label {
+  display: flex; }
+.form .inputText {
+  color: #444; }
+.form .helperText {
+  margin: .25em .75em; }
+.form ::-webkit-input-placeholder {
+  color: #c2c2c2;
+  font-weight: 100; }
+.form ::-moz-placeholder {
+  color: #c2c2c2;
+  font-weight: 100; }
+.form :-ms-input-placeholder {
+  color: #c2c2c2;
+  font-weight: 100; }
+.form :-moz-placeholder {
+  color: #c2c2c2;
+  font-weight: 100; }
+.form input {
+  font-size: 1em;
+  padding: .35em;
+  color: #444;
+  border: 2px solid #c2c2c2;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */
+  width: 100%; }
+.form input[type="checkbox"] {
+  width: 1em;
+  cursor: pointer; }
+.form .btn {
+  font-size: 1em;
+  padding: .5em 1.5em;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #fff;
+  color: #444;
+  box-shadow: none !important;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */
+  background-color: #fff;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+.form .teal {
+  border-color: #4db6ac;
+  color: #4db6ac; }
+.form .teal:hover {
+  border-color: #82ccc5;
+  color: #82ccc5; }
+.form .teal_solid {
+  border-color: #4db6ac;
+  background-color: #4db6ac;
+  color: #fff; }
+.form .teal_solid:hover {
+  border-color: #82ccc5;
+  background-color: #82ccc5;
+  color: #fff; }
+.form .red {
+  border-color: #af3531;
+  color: #af3531; }
+.form .red:hover {
+  border-color: #c7716e;
+  color: #c7716e; }
+.form .red_solid {
+  border-color: #af3531;
+  background-color: #af3531;
+  color: #fff; }
+.form .red_solid:hover {
+  border-color: #c7716e;
+  background-color: #c7716e;
+  color: #fff; }
+.form .nav {
+  float: right; }
+
+@media screen and (max-width: 480px) {
+  .form input[type="checkbox"] {
+    width: 2em;
+    height: 2em; } }
+.landingPage {
+  margin: 0; }
+  .landingPage .nav_progress {
+    position: fixed;
+    right: 5px;
+    top: 35%; }
+  .landingPage .bg_teal, .landingPage .bg_red1 {
+    color: #fff; }
+  .landingPage header {
+    color: #fff;
+    text-shadow: 1px 1px 0 rgba(43, 43, 43, 0.3), 1px 1px 0 rgba(43, 43, 43, 0.3), 1px 1px 0 rgba(43, 43, 43, 0.3), 1px 1px 0 rgba(43, 43, 43, 0.3); }
+  .landingPage section, .landingPage header {
+    background-size: cover;
+    background-position: center top;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 40px;
+    padding-right: 40px; }
+  .landingPage header .headline, .landingPage header .subheadline {
+    text-align: center; }
+  .landingPage section .headline, .landingPage section .subheadline {
+    text-align: center; }
+  .landingPage section .headline h1, .landingPage section .headline h2 {
+    margin: 0 0 0.125em 0; }
+  .landingPage .content {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto; }
+    .landingPage .content .content_block {
+      float: left;
+      width: 50%;
+      padding: 0 10px;
+      box-sizing: border-box; }
+  .landingPage .content_50 {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto; }
+  .landingPage .form {
+    padding-top: 40px;
+    padding-bottom: 40px; }
+    .landingPage .form .input_options {
+      clear: both;
+      margin-top: 3.5em;
+      border-top: 1px dotted #f1f1f1; }
+
+@media screen and (max-width: 480px) {
+  .landingPage section, .landingPage header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 12px;
+    padding-right: 12px; }
+  .landingPage section .headline, .landingPage section .subheadline, .landingPage header .headline, .landingPage section .subheadline {
+    text-align: left;
+    width: 75%; }
+  .landingPage .content {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto; }
+    .landingPage .content .content_block {
+      clear: both;
+      width: 100%; }
+    .landingPage .content .content_block:nth-child(2) {
+      margin-top: 20px; } }
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0; }
+
+.clearfix {
+  display: block; }
+
+html[xmlns] .clearfix {
+  display: block; }
+
+* html .clearfix {
+  height: 1%; }
+
+/* Large desktop */
+/* Portrait tablet to landscape and desktop */
+/* Landscape phone to portrait tablet */
+/* Landscape phones and down */

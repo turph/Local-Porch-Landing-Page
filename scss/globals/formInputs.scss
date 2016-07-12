@@ -1,0 +1,46 @@
+.form{
+	label{margin-top:.85em;color:$black;display:block;}
+	.inline_label{display:flex;}
+	.inputText{color:$black;}
+	.helperText{@extend .font_small;margin:.25em .75em;}
+	::-webkit-input-placeholder{color:$grey3;font-weight:100;}
+	::-moz-placeholder{color:$grey3;font-weight:100;}
+	:-ms-input-placeholder{color:$grey3;font-weight:100;}
+	:-moz-placeholder{color:$grey3;font-weight:100;}
+	input{
+		font-size:1em;
+		padding:.35em;
+		color:$black;
+		border:2px solid $grey3;
+		@include border-radius(6px);
+		width:100%;
+	}
+	input[type="checkbox"]{width:1em;cursor:pointer;}
+	.btn{
+		font-size:1em;
+		padding:.5em 1.5em;
+		border-width:2px;
+		border-style:solid;
+		border-color:$white;
+		color:$black;
+		box-shadow:none !important;
+		@include border-radius(3px);
+		background-color:$white;
+		@include transition(all, 0.5s, ease);
+	}
+	.teal{border-color:$teal;color:$teal;}
+	.teal:hover{border-color:$teal2;color:$teal2;}
+	.teal_solid{border-color:$teal;background-color:$teal;color:$white;}
+	.teal_solid:hover{border-color:$teal2;background-color:$teal2;color:$white;}
+	.red{border-color:$red;color:$red;}
+	.red:hover{border-color:$red2;color:$red2;}
+	.red_solid{border-color:$red;background-color:$red;color:$white;}
+	.red_solid:hover{border-color:$red2;background-color:$red2;color:$white;}
+	.nav{float:right;}
+}
+
+@media screen and (max-width: 480px) {
+.form{
+	input[type="checkbox"]{width:2em;height:2em;}
+	}
+}

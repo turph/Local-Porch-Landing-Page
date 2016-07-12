@@ -1,0 +1,87 @@
+// Local Porch Color Profiles
+// Description: Set all application-wide color definitions here
+// To see examples, see the Color Swatches PNG
+
+// Endpoints
+$white: #fff;
+$black: #444;
+
+// Greys
+$grey1: #666;
+$grey2: #999; 
+$grey3: #c2c2c2;
+$grey4: #f1f1f1;
+$grey5: #fdfdfd;
+
+// Default Color
+$default: $black;
+
+// Primary
+$red:		#af3531;
+$red1:	#df8b88;
+$red2:	#c7716e;
+$teal:	#4db6ac;
+$teal1:	#aad4d0;
+$teal2:	#82ccc5;
+$beige:	#ebe5df;
+
+// Message Colors
+$msg-danger: 	#c2112e;
+$msg-danger1:	#ecccd1;
+$msg-success:	#4b8944;
+$msg-success1:	#d7fbd3;
+$msg-info:		#445689;
+$msg-info1:		#cdebf5;
+
+$msg-default: #999;
+$msg-warning: #f0ad4e;
+
+// Quick Colors
+.bg_red{background-color:$red;}
+.bg_red1{background-color:$red1;}
+.bg_teal{background-color:$teal;}
+.bg_teal1{background-color:$teal1;}
+.bg_beige{background-color:$beige;}
+.bg_white{background-color:$white;}
+.bg_black{background-color:$black;}
+
+// Flat UI Color Swatches (http://designmodo.github.io/Flat-UI) see the color-swatchs.png
+$turquoise: #1abc9c;
+$green-sea: #16a085;
+$emerald: #2ecc71;
+$nephritis: #27ae60;
+$peter-river: #3498db;
+$belize-hole: #2980b9;
+$amethyst: #9b59b6;
+$wisteria: #8e44ad;
+$wet-asphalt: #34495e;
+$midnight-blue: #2c3e50;
+$sunflower: #f1c40f;
+$orange: #f39c12;
+$carrot: #e67e22;
+$pumpkin: #d35400;
+$alizarin: #e74c3c;
+$pomegranate: #c0392b;
+$clouds: #ecf0f1;
+$silver: #bdc3c7;
+$concrete: #95a5a6;
+$asbestos: #7f8c8d;
+
+//Social Colors
+$dailymile: #FFAA25;
+$facebook: #3B5998;
+$flickr: #f80082;
+$github: #F7F7F7;
+$google: #d7473d;
+$instagram: #37658D;
+$linkedin: #2C8CC0;
+$pinterest: #c5142b;
+$runkeeper: #3193d3;
+$skype: #00abee;
+$spotify: #7AB800;
+$twitter: #3B8ACA;
+
+// Set Site Specific Base, Highlight and Accent Colors Here for easy switching between themes
+$base: $teal;
+$highlight: $belize-hole;
+$accent: $peter-river;
