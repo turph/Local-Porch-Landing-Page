@@ -261,6 +261,18 @@ hr {
       clear: both;
       margin-top: 3.5em;
       border-top: 1px dotted #f1f1f1; }
+  .landingPage #how .form {
+    padding: 0; }
+  .landingPage .how_nav {
+    text-align: center; }
+  .landingPage #how_maker .how_item {
+    width: 24%;
+    float: left;
+    text-align: center; }
+  .landingPage #how_shopper .how_item {
+    width: 32%;
+    float: left;
+    text-align: center; }
 
 @media screen and (max-width: 480px) {
   .landingPage section, .landingPage header {
@@ -268,7 +280,7 @@ hr {
     padding-bottom: 30px;
     padding-left: 12px;
     padding-right: 12px; }
-  .landingPage section .headline, .landingPage section .subheadline, .landingPage header .headline, .landingPage section .subheadline {
+  .landingPage section .headline, .landingPage section .subheadline, .landingPage header .headline, .landingPage header .subheadline {
     text-align: left;
     width: 75%; }
   .landingPage .content {
@@ -281,7 +293,15 @@ hr {
       clear: both;
       width: 100%; }
     .landingPage .content .content_block:nth-child(2) {
-      margin-top: 20px; } }
+      margin-top: 20px; }
+  .landingPage #how_maker .how_item {
+    width: 49%;
+    float: left;
+    text-align: center; }
+  .landingPage #how_shopper .how_item {
+    width: 49%;
+    float: left;
+    text-align: center; } }
 .clearfix:after {
   content: ".";
   display: block;
