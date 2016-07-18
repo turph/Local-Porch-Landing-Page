@@ -1209,6 +1209,83 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/consumer-browse.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3227,
+		"inputAbbreviatedPath": "\/img\/consumer-browse.png",
+		"outputAbbreviatedPath": "\/img\/consumer-browse.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/consumer-channel.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3675,
+		"inputAbbreviatedPath": "\/img\/consumer-channel.png",
+		"outputAbbreviatedPath": "\/img\/consumer-channel.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/consumer-community.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13291,
+		"inputAbbreviatedPath": "\/img\/consumer-community.png",
+		"outputAbbreviatedPath": "\/img\/consumer-community.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/maker-apply.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3174,
+		"inputAbbreviatedPath": "\/img\/maker-apply.png",
+		"outputAbbreviatedPath": "\/img\/maker-apply.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/maker-channels.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3088,
+		"inputAbbreviatedPath": "\/img\/maker-channels.png",
+		"outputAbbreviatedPath": "\/img\/maker-channels.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/maker-graph.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4551,
+		"inputAbbreviatedPath": "\/img\/maker-graph.png",
+		"outputAbbreviatedPath": "\/img\/maker-graph.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/maker-portfolio.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12003,
+		"inputAbbreviatedPath": "\/img\/maker-portfolio.png",
+		"outputAbbreviatedPath": "\/img\/maker-portfolio.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/map_lg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

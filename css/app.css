@@ -265,6 +265,9 @@ hr {
     padding: 0; }
   .landingPage .how_nav {
     text-align: center; }
+  .landingPage .how_item img {
+    width: 210px;
+    height: 125px; }
   .landingPage #how_maker .how_item {
     width: 24%;
     float: left;
@@ -301,7 +304,10 @@ hr {
   .landingPage #how_shopper .how_item {
     width: 49%;
     float: left;
-    text-align: center; } }
+    text-align: center; }
+  .landingPage .how_item img {
+    width: 120px;
+    height: 71px; } }
 .clearfix:after {
   content: ".";
   display: block;
