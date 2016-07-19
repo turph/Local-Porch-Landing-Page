@@ -1242,6 +1242,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/lp-logo_black_noTag.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 159503,
+		"inputAbbreviatedPath": "\/img\/lp-logo_black_noTag.png",
+		"outputAbbreviatedPath": "\/img\/lp-logo_black_noTag.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/maker-apply.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1304,6 +1315,28 @@
 		"initialSize": 115412,
 		"inputAbbreviatedPath": "\/img\/potterHands_lg.jpg",
 		"outputAbbreviatedPath": "\/img\/potterHands_lg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/wooster-black.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7434,
+		"inputAbbreviatedPath": "\/img\/wooster-black.png",
+		"outputAbbreviatedPath": "\/img\/wooster-black.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/wooster-white.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7312,
+		"inputAbbreviatedPath": "\/img\/wooster-white.png",
+		"outputAbbreviatedPath": "\/img\/wooster-white.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

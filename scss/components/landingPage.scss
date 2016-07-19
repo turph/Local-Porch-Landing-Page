@@ -1,4 +1,5 @@
 .landingPage{
+	.logoBar{}
 	.nav_progress{
 		position:fixed;
 		right:5px;
@@ -24,6 +25,7 @@
 		padding-left:40px;
 		padding-right:40px;
 		min-height:450px;
+		position:relative;
 	}
 	header .headline, header .subheadline{text-align:center;}
 	section .headline, section .subheadline{text-align:center;}
@@ -61,10 +63,32 @@
 		@include spacing(48px);
 		.how_item{width:29%;float:left;text-align:center;}
 	}
+	
+	.wooster{
+		width:50px;
+		margin-left:auto;
+		margin-right:auto;
+		left:0;
+		right:0;
+		position:absolute;
+		bottom:20px;
+		img{width:50px;}
+	}
+	
 }
 
 @media screen and (max-width: 480px) {
 	.landingPage{
+		.logoBar{
+			width:120px;
+			position:absolute;
+			margin-left:auto;
+			margin-right:auto;
+			left:0;
+			right:0;
+			bottom:20px;
+			img{width:120px;}
+		}
 		section, header{
 			@include spacing(30px);
 			padding-left:12px;

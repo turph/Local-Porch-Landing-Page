@@ -12,3 +12,9 @@
     -o-transition:      $what $time $how;
     transition:         $what $time $how;
 }
+
+@mixin center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

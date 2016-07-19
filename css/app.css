@@ -233,7 +233,8 @@ hr {
     padding-bottom: 60px;
     padding-left: 40px;
     padding-right: 40px;
-    min-height: 450px; }
+    min-height: 450px;
+    position: relative; }
   .landingPage header .headline, .landingPage header .subheadline {
     text-align: center; }
   .landingPage section .headline, .landingPage section .subheadline {
@@ -285,8 +286,28 @@ hr {
       width: 29%;
       float: left;
       text-align: center; }
+  .landingPage .wooster {
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    position: absolute;
+    bottom: 20px; }
+    .landingPage .wooster img {
+      width: 50px; }
 
 @media screen and (max-width: 480px) {
+  .landingPage .logoBar {
+    width: 120px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: 20px; }
+    .landingPage .logoBar img {
+      width: 120px; }
   .landingPage section, .landingPage header {
     padding-top: 30px;
     padding-bottom: 30px;
