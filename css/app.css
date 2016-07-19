@@ -273,19 +273,24 @@ hr {
     width: 100%;
     margin-bottom: 12px; }
   .landingPage #how_maker {
-    padding-top: 48px;
-    padding-bottom: 48px; }
+    padding-top: 60px;
+    padding-bottom: 60px; }
     .landingPage #how_maker .how_item {
       width: 20%;
       float: left;
       text-align: center; }
   .landingPage #how_shopper {
-    padding-top: 48px;
-    padding-bottom: 48px; }
+    padding-top: 60px;
+    padding-bottom: 60px; }
     .landingPage #how_shopper .how_item {
       width: 29%;
       float: left;
       text-align: center; }
+  .landingPage #selling .content_block {
+    text-align: center; }
+  .landingPage #selling .content_block img {
+    width: 45%;
+    margin-bottom: 20px; }
   .landingPage .wooster {
     width: 50px;
     margin-left: auto;
@@ -346,7 +351,10 @@ hr {
       text-align: center; }
   .landingPage .how_item img {
     width: 120px;
-    height: 71px; } }
+    height: 71px; }
+  .landingPage #selling .content {
+    padding-top: 40px;
+    padding-bottom: 40px; } }
 .clearfix:after {
   content: ".";
   display: block;

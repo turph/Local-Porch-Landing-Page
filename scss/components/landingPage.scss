@@ -56,13 +56,16 @@
 	.how_item{margin:0 20px;}
 	.how_item img{width:100%;margin-bottom:12px;}
 	#how_maker{
-		@include spacing(48px);
+		@include spacing(60px);
 		.how_item{width:20%;float:left;text-align:center;}
 	}
 	#how_shopper{
-		@include spacing(48px);
+		@include spacing(60px);
 		.how_item{width:29%;float:left;text-align:center;}
 	}
+	
+	#selling .content_block{text-align:center;}
+	#selling .content_block img{width:45%;margin-bottom:20px;}
 	
 	.wooster{
 		width:50px;
@@ -74,7 +77,6 @@
 		bottom:20px;
 		img{width:50px;}
 	}
-	
 }
 
 @media screen and (max-width: 480px) {
@@ -117,6 +119,8 @@
 			.how_item{width:42%;float:left;text-align:center;}
 		}
 		.how_item img{width:120px;height:71px;}
+		
+		#selling .content{@include spacing(40px);}
 	}
 }
 
