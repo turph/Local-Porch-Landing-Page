@@ -42,11 +42,11 @@
 			<div class="headline"><h2 class="serif">How it works.<h2></div>
 			<div class="subheadline"><h5>LocalPorch brings together makers and buyers in their community.</h5></div>
 			<div class="content clearfix">
-				<div class="how_nav form"><p>I am a</p><a id="submit-btn" class="btn teal">Maker</a> or <a id="submit-btn" class="btn teal">Buyer</a></div>
+				<div class="how_nav form"><p>Which are you?</p><a id="maker-btn" class="btn red">Maker</a>&nbsp;&nbsp;or&nbsp;&nbsp;<a id="shopper-btn" class="btn teal">Buyer</a></div>
 				<div id="how_maker" class="">
 					<div class="how_item">
 						<img src="img/maker-apply.png" alt="Maker Apply">
-						<p>Apply to be a LocalPorch maker to sell your handmade goods.</p>
+						<p>Apply to sell your handmade goods.</p>
 					</div>
 					<div class="how_item">
 						<img src="img/maker-portfolio.png" alt="Maker Portfolio">
@@ -58,21 +58,21 @@
 					</div>
 					<div class="how_item">
 						<img src="img/maker-graph.png" alt="Maker Graph">
-						<p>Increase local sales for less time and money. Go make stuff!</p>
+						<p>Increase local sales for less time and money.</p>
 					</div>
 				</div>
-				<div id="how_shopper" class="">
+				<div id="how_shopper" style="display:none;">
 					<div class="how_item">
 						<img src="img/consumer-browse.png" alt="Consumer Browse">
-						<p>100 Characters Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dolor eros, auctor non</p>
+						<p>50 Characters Lorem ipsum dolor sit amet, consect.</p>
 					</div>
 					<div class="how_item">
 						<img src="img/consumer-community.png" alt="Consumer Community">
-						<p>100 Characters Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dolor eros, auctor non</p>
+						<p>50 Characters Lorem ipsum dolor sit amet, consect.</p>
 					</div>
 					<div class="how_item">
 						<img src="img/consumer-channel.png" alt="Consumer Channel">
-						<p>100 Characters Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dolor eros, auctor non</p>
+						<p>50 Characters Lorem ipsum dolor sit amet, consect.</p>
 					</div>
 				</div>
 			</div>
@@ -152,6 +152,21 @@
 			new ScrollMagic.Scene({triggerElement: "#register"})
 				.setClassToggle("#dot6", "active") // add class toggle
 			.addTo(controller);
+		</script>
+			
+		<script>
+			$("#maker-btn").click(function() {
+			  $("#how_maker").show("slow");
+			  $("#how_shopper").hide("slow");
+			  $("#maker-btn").toggleClass("teal red");
+			  $("#shopper-btn").toggleClass("red teal");
+			});
+			$("#shopper-btn").click(function() {
+			  $("#how_maker").hide("slow");
+			  $("#how_shopper").show("slow");
+			  $("#shopper-btn").toggleClass("teal red");
+			  $("#maker-btn").toggleClass("red teal");
+			});
 		</script>
 	</body>
 </html>

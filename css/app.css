@@ -232,7 +232,8 @@ hr {
     padding-top: 60px;
     padding-bottom: 60px;
     padding-left: 40px;
-    padding-right: 40px; }
+    padding-right: 40px;
+    min-height: 450px; }
   .landingPage header .headline, .landingPage header .subheadline {
     text-align: center; }
   .landingPage section .headline, .landingPage section .subheadline {
@@ -265,31 +266,40 @@ hr {
     padding: 0; }
   .landingPage .how_nav {
     text-align: center; }
+  .landingPage .how_item {
+    margin: 0 20px; }
   .landingPage .how_item img {
-    width: 210px;
-    height: 125px; }
-  .landingPage #how_maker .how_item {
-    width: 24%;
-    float: left;
-    text-align: center; }
-  .landingPage #how_shopper .how_item {
-    width: 32%;
-    float: left;
-    text-align: center; }
+    width: 100%;
+    margin-bottom: 12px; }
+  .landingPage #how_maker {
+    padding-top: 48px;
+    padding-bottom: 48px; }
+    .landingPage #how_maker .how_item {
+      width: 20%;
+      float: left;
+      text-align: center; }
+  .landingPage #how_shopper {
+    padding-top: 48px;
+    padding-bottom: 48px; }
+    .landingPage #how_shopper .how_item {
+      width: 29%;
+      float: left;
+      text-align: center; }
 
 @media screen and (max-width: 480px) {
   .landingPage section, .landingPage header {
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 12px;
-    padding-right: 12px; }
+    padding-right: 12px;
+    min-height: 568px; }
   .landingPage section .headline, .landingPage section .subheadline, .landingPage header .headline, .landingPage header .subheadline {
     text-align: left;
     width: 75%; }
   .landingPage .content {
     padding-top: 12px;
     padding-bottom: 12px;
-    max-width: 90%;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto; }
     .landingPage .content .content_block {
@@ -297,14 +307,22 @@ hr {
       width: 100%; }
     .landingPage .content .content_block:nth-child(2) {
       margin-top: 20px; }
-  .landingPage #how_maker .how_item {
-    width: 49%;
-    float: left;
-    text-align: center; }
-  .landingPage #how_shopper .how_item {
-    width: 49%;
-    float: left;
-    text-align: center; }
+  .landingPage .how_item {
+    margin: 0 10px; }
+  .landingPage #how_maker {
+    padding-top: 32px;
+    padding-bottom: 32px; }
+    .landingPage #how_maker .how_item {
+      width: 42%;
+      float: left;
+      text-align: center; }
+  .landingPage #how_shopper {
+    padding-top: 32px;
+    padding-bottom: 32px; }
+    .landingPage #how_shopper .how_item {
+      width: 42%;
+      float: left;
+      text-align: center; }
   .landingPage .how_item img {
     width: 120px;
     height: 71px; } }
