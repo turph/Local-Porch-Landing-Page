@@ -233,7 +233,7 @@ hr {
     padding-bottom: 60px;
     padding-left: 40px;
     padding-right: 40px;
-    min-height: 450px;
+    min-height: 375px;
     position: relative; }
   .landingPage header .headline, .landingPage header .subheadline {
     text-align: center; }
@@ -256,6 +256,13 @@ hr {
     max-width: 50%;
     margin-left: auto;
     margin-right: auto; }
+  .landingPage .icon {
+    text-decoration: none;
+    color: #fff; }
+  .landingPage .content i {
+    font-size: 32px;
+    color: #fff;
+    padding: 0 4px 0 0; }
   .landingPage .form {
     padding-top: 40px;
     padding-bottom: 40px; }

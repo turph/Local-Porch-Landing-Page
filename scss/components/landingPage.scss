@@ -18,13 +18,14 @@
 			1px 1px 0 rgba(43,43,43,0.3);
 	}
 	
+	// Control section global layout
 	section, header{
 		background-size:cover;
 		background-position:center top;
 		@include spacing(60px);
 		padding-left:40px;
 		padding-right:40px;
-		min-height:450px;
+		min-height:375px;
 		position:relative;
 	}
 	header .headline, header .subheadline{text-align:center;}
@@ -46,6 +47,8 @@
 	   margin-left:auto;
 	   margin-right:auto;
 	}
+	.icon{text-decoration:none;color:$white;}
+	.content i{font-size:32px;color:$white;padding:0 4px 0 0;}
 	.form{
 		@include spacing(40px);
 		.input_options{clear:both;margin-top:3.5em;border-top:1px dotted $grey4;}
