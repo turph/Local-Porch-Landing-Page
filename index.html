@@ -25,22 +25,25 @@
 	</head>
 	<body class="landingPage">
 		<div class="logoBar"><img src="img/lp-logo_black_noTag.png" alt="LocalPorch"></div>
-		<div class="nav_progress">
-			<form class="move">
-				<fieldset>
-					<p id="dot1" class="active">1</p>
-					<p id="dot2" class="">2</p>
-					<p id="dot3" class="">3</p>
-					<p id="dot4" class="">4</p>
-					<p id="dot5" class="">5</p>
-					<p id="dot6" class="">6</p>
-				</fieldset>
-			</form>
-		</div>
 		<header id="hero" class="space_75" style="background-image:url('img/potterHands_lg.jpg');">
 			<div class="headline"><h1 class="serif">A whole new way to buy local.<h1></div>
 			<div class="subheadline"><h5>Discover handcrafted goods made near you and create connections by purchasing directly from makers.</h5></div>
 		</header>
+		<section id="location" class="bg_white" style="background-image:url('img/map_lg.jpg');">
+			<div class="headline"><h2 class="serif">Location matters.<h2></div>
+			<div class="subheadline"><h5>Focusing the experience on local first makes us different.</h5></div>
+			<div class="content clearfix">
+				<div class="content_block">
+					<h5>Your community</h5>
+					<p>We have focused our initial launch in the Worcester, MA metro area. During our beta launch feel free to browse those makers & their products until we expand to other locations. Want to know when LocalPorch comes to your neighborhood? Use the form to below to signup for our newsletter updates.</p>
+				</div>		
+				<div class="content_block">
+					<h5>Community connections</h5>
+					<p>LocalPorch is different – we are a shopping experience focused on community. We make it easy to find makers who are creating unique, handcrafted goods right around the corner from you.  Every time you purchase from a LocalPorch maker you create a connection while contributing dollars into your local economy.</p>
+				</div>			
+			</div>
+			<div class="wooster"><img src="img/wooster-black.png" alt="Wooster"></div>
+		</section>
 		<section id="how" class="bg_teal">
 			<div class="headline"><h2 class="serif">How it works.<h2></div>
 			<div class="subheadline"><h5>LocalPorch brings together makers and buyers in their community.</h5></div>
@@ -81,51 +84,6 @@
 			</div>
 			<div class="wooster"><img src="img/wooster-white.png" alt="Wooster"></div>
 		</section>
-		<section id="location" class="bg_white" style="background-image:url('img/map_lg.jpg');">
-			<div class="headline"><h2 class="serif">Location matters.<h2></div>
-			<div class="subheadline"><h5>Focusing the experience on local first makes us different.</h5></div>
-			<div class="content clearfix">
-				<div class="content_block">
-					<h5>Community connections</h5>
-					<p>LocalPorch is different – we are a shopping experience focused on community.  We value maker and buyer connections, not just commerce.  We encourage a personal exchange of goods which means purchases are an opportunity to get to know the person behind your favorite piece.</p>
-				</div>			
-				<div class="content_block">
-					<h5>Your location matters</h5>
-					<p>We have focused our initial launch in the Worcester, MA metro area. Feel free to browse those makers & products until we expand to other locations. Sign up for our newsletter for updates.</p>
-				</div>		
-			</div>
-			<div class="wooster"><img src="img/wooster-black.png" alt="Wooster"></div>
-		</section>
-		<section id="selling" class="bg_red1">
-			<div class="headline"><h2 class="serif">Selling & buying.<h2></div>
-			<div class="subheadline"><h5>Facilitating people buying and selling a product is valuable.</h5></div>
-			<div class="content clearfix">
-				<div class="content_block">
-					<img src="img/maker-portfolio.png" alt="Maker Portfolio">
-					<h5>Selling locally</h5>
-					<p>Creating and managing your product portfolio is no different than any other online sales channel. Our difference is how you choose to distribute your products. Focusing on the local market, you decide how you will fulfill orders; retail location, event, buyer pickup, or plain old shipping.</p>
-				</div>			
-				<div class="content_block">
-					<img src="img/consumer-channel.png" alt="Consumer Channel">
-					<h5>Buying & receiving locally</h5>
-					<p>Our shopping experience is focused on letting you discover and purchase products near you. Provide your zip code and then shop for products in your community – find what you love, arrange to purchase, and schedule to meet and receive your treasure. It's that simple.</p>
-				</div>		
-			</div>
-			<div class="wooster"><img src="img/wooster-white.png" alt="Wooster"></div>
-		</section>
-		<section id="social" class="bg_white">
-			<div class="headline"><h2 class="serif">Let's stay in touch.<h2></div>
-			<div class="subheadline"><h5>Keep up with what is new on LocalPorch.</h5></div>
-			<div class="content">
-				<div class="">
-					<div class="">header things here</div>
-					<div class="">
-						<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FLocalPorch-1060322527358305&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-					</div>
-				</div>
-			</div>
-			<div class="wooster"><img src="img/wooster-black.png" alt="Wooster"></div>
-		</section>
 		<section id="register" class="bg_teal1">
 			<div class="headline"><h2 class="serif">Join the community.<h2></div>
 			<div class="subheadline"><h5>See what's made in your neighborhood and where to get it.</h5></div>
@@ -149,30 +107,6 @@
 		</section>
 
 
-		<script>
-			// init controller
-			var controller = new ScrollMagic.Controller({globalSceneOptions: {duration: 100}});
-
-		// build scenes
-			new ScrollMagic.Scene({triggerElement: "#hero"})
-				.setClassToggle("#dot1", "active") // add class toggle
-			.addTo(controller);
-			new ScrollMagic.Scene({triggerElement: "#how"})
-				.setClassToggle("#dot2", "active") // add class toggle
-			.addTo(controller);
-			new ScrollMagic.Scene({triggerElement: "#location"})
-				.setClassToggle("#dot3", "active") // add class toggle
-			.addTo(controller);
-			new ScrollMagic.Scene({triggerElement: "#selling"})
-				.setClassToggle("#dot4", "active") // add class toggle
-			.addTo(controller);
-			new ScrollMagic.Scene({triggerElement: "#social"})
-				.setClassToggle("#dot5", "active") // add class toggle
-			.addTo(controller);
-			new ScrollMagic.Scene({triggerElement: "#register"})
-				.setClassToggle("#dot6", "active") // add class toggle
-			.addTo(controller);
-		</script>
 			
 		<script>
 			$("#maker-btn").click(function() {
