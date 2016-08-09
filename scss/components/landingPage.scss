@@ -1,5 +1,11 @@
 .landingPage{
-	.logoBar{}
+	.logoBar{
+		background-color:$beige;
+		border-bottom:1px solid $grey3;
+		text-align:center;
+		padding:.25em;
+		img{}
+	}
 	.nav_progress{
 		position:fixed;
 		right:5px;

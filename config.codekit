@@ -1253,6 +1253,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/lp-logo_tag_black.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5850,
+		"inputAbbreviatedPath": "\/img\/lp-logo_tag_black.png",
+		"outputAbbreviatedPath": "\/img\/lp-logo_tag_black.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/maker-apply.png": {
 		"fileType": 32768,
 		"ignore": 0,

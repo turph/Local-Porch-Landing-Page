@@ -217,6 +217,11 @@ hr {
     height: 2em; } }
 .landingPage {
   margin: 0; }
+  .landingPage .logoBar {
+    background-color: #ebe5df;
+    border-bottom: 1px solid #c2c2c2;
+    text-align: center;
+    padding: .25em; }
   .landingPage .nav_progress {
     position: fixed;
     right: 5px;
