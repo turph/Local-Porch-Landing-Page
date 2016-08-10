@@ -3,12 +3,15 @@
 		<!-- Meta -->
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
-      <meta name="description" content="A community-focused, handmade product marketplace connecting consumers directly with local artisans.">
+		<meta name="description" content="A community-focused, handmade product marketplace connecting consumers directly with local artisans.">
 		<title>LocalPorch - Made Local. Sold Local.</title>
 
 		<!-- Favicons & Font Awesome Icon CDN -->
 		<link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="/favicon.ico">
 		<script src="https://use.fontawesome.com/ee5f3f790a.js"></script>
+
+		<!-- Favicons -->
+		<link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="/favicon.ico">
 
 		<!-- Styles -->
 		<link rel="stylesheet" href="css/app.css" type="text/css" media="screen">
@@ -17,6 +20,7 @@
 		<!-- JS -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+		<script src="http://malsup.github.com/jquery.form.js"></script>
 
 		<style type="text/css">
 			.active {
@@ -37,11 +41,11 @@
 				<div class="content_block">
 					<h5>Your community</h5>
 					<p>We have focused our initial launch in the Worcester, MA metro area. During our beta launch you will be able to browse those makers and their products until we expand to other locations. Want to know when LocalPorch comes to your neighborhood? Use the form below to signup for our newsletter updates.</p>
-				</div>		
+				</div>
 				<div class="content_block">
 					<h5>Community connections</h5>
 					<p>LocalPorch is different – we are a shopping experience focused on community. We make it easy to find makers who are creating unique, handcrafted goods right around the corner from you.  Every time you purchase from a LocalPorch maker you create a connection while contributing dollars into your local economy.</p>
-				</div>			
+				</div>
 			</div>
 			<div class="wooster"><img src="img/wooster-black.png" alt="Wooster"></div>
 		</section>
@@ -98,12 +102,17 @@
 					<label for="name">Location</label>
 					<input type="city" name="city" id="city" placeholder="City, State" autocorrect="off" autocapitalize="words">
 					<div class="helperText">Example: Worcester, MA</div>
-					<div class="nav"><a id="submit-btn" class="btn red_solid">Submit</a></div>
+					<div class="nav"><input type="submit" id="submit-btn" class="btn red_solid" value="Submit" style="cursor:pointer"/></div>
 					<div class="input_options">
 						<label class="inline_label"><input type="checkbox" name="maker" value="Artisan">I have handmade products to contribute to the community.</label>
 					</div>
 				</form>
 			</div>
+
+			<div class="registered" style="display:none;margin:60px auto;text-align:center;">
+					<p class="medium">Thank you for your interest in LocalPorch. We will keep you updated on our launch.</p>
+			</div>
+
 			<div class="wooster"><img src="img/wooster-white.png" alt="Wooster"></div>
 		</section>
 		<section id="social" class="bg_red1">
@@ -117,20 +126,29 @@
 		</section>
 
 
-			
+
 		<script>
 			$("#maker-btn").click(function() {
-			  $("#how_maker").show("slow");
-			  $("#how_shopper").hide("slow");
-			  $("#maker-btn").toggleClass("teal red");
-			  $("#shopper-btn").toggleClass("red teal");
+				$("#how_maker").show("slow");
+				$("#how_shopper").hide("slow");
+				$("#maker-btn").toggleClass("teal red");
+				$("#shopper-btn").toggleClass("red teal");
 			});
+
 			$("#shopper-btn").click(function() {
-			  $("#how_maker").hide("slow");
-			  $("#how_shopper").show("slow");
-			  $("#shopper-btn").toggleClass("teal red");
-			  $("#maker-btn").toggleClass("red teal");
+				$("#how_maker").hide("slow");
+				$("#how_shopper").show("slow");
+				$("#shopper-btn").toggleClass("teal red");
+				$("#maker-btn").toggleClass("red teal");
 			});
+
+		  $(document).ready(function() {
+		    $('#subscribeForm').ajaxForm(function() {
+		      $('.signup').fadeOut("slow", function() {
+		        $('.registered').fadeIn("slow");
+		      });
+		    });
+		  });
 		</script>
 	</body>
 </html>
