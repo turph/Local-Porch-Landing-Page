@@ -3,7 +3,7 @@
 		background-color:$beige;
 		border-bottom:1px solid $grey3;
 		text-align:center;
-		padding:.25em;
+		padding:.45em;
 		img{}
 	}
 	.nav_progress{
@@ -57,7 +57,7 @@
 	.content i{font-size:32px;color:$white;padding:0 4px 0 0;}
 	.form{
 		@include spacing(40px);
-		.input_options{clear:both;margin-top:3.5em;border-top:1px dotted $grey4;}
+		.input_options{clear:both;margin-top:1em;margin-bottom:.5em;border-top:1px dotted $grey4;}
 	}
 	
 	#how .form{padding:0;}
@@ -91,7 +91,7 @@
 @media screen and (max-width: 480px) {
 	.landingPage{
 		.logoBar{
-			img{}
+			img{height:55px;}
 		}
 		section, header{
 			@include spacing(30px);
